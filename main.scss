@@ -1,0 +1,39 @@
+// Universal Affects
+body{
+    font-family: 'Piazzolla', serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+button:focus{
+    outline: none;
+}
+
+button{
+    font-family: 'Piazzolla', serif;
+}
+
+a:hover,a{
+    text-decoration: none;
+}
+
+// For Products
+#products{
+    .item-one{
+        // transition: Default Value Duration
+        // transition-timing-function:linear - specifies a transition effect with the same speed from start to end.
+        transition: all 2s linear;
+        
+        // On Y-axis
+        min-height: 50vh;
+    }
+
+    .item-one:hover{
+        background-color: bisque;
+    }
+
+    .btn{
+        border-radius: 2rem;
+    }
+}

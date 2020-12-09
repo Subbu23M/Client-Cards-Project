@@ -1,0 +1,50 @@
+body {
+  font-family: 'Piazzolla', serif;
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+button:focus {
+  outline: none;
+}
+
+button {
+  font-family: 'Piazzolla', serif;
+}
+
+a:hover, a {
+  text-decoration: none;
+}
+
+#products .item-one {
+  -webkit-transition: all 2s ease;
+  transition: all 2s ease;
+  min-height: 40vh;
+  background-color: lightgoldenrodyellow;
+  overflow: hidden;
+}
+
+#products .item-one:hover img {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+}
+
+#products .mar {
+  margin-top: 4rem;
+}
+
+#products .card-body .btn {
+  border: 2px solid gray;
+  height: 6vh;
+  padding: 8px;
+}
+
+@media screen and (max-width: 768px) {
+  .card-body .btn {
+    height: 5vh;
+    padding: 3px;
+  }
+}
+/*# sourceMappingURL=coolers.css.map */
